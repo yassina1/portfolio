@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.container h2 {
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    z-index: 1000;
+}
+
+header h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+    color: #83B4FF;
+}
+
+#skills{
+    padding: 0 60px;
+    text-align: center;
+}
+
+.project {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover{
+    transform: translate(-5px);
+}
+
+.skill-info h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skill-info p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.skill-info img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.skills-example img {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.ability h2{
+    font-size: 1em;
+    display: inline;
+    padding: 0px;
+}
+
+.ability p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#about{
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#contact-me{
+    padding: 60px 0;
+    text-align: center;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+}
+
+textarea {
+    height: 150px; 
+ }
+ 
+ button {
+     background-color: grey;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     font-size: 1.1em;
+     cursor: pointer;
+     border-radius: 5px;
+     transition: background-color 0.3s ease;
+ }
+ 
+ button:hover {
+     background-color: blue;
+ }
+ 
+footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: 20px;
+}

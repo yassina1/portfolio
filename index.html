@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassin's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yassin</h1>
+            <button onclick="hello()"><h2>Hello!</h2></button>
+            <h3>Front-end Developer</h3>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li ><a href="#about">about</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="project">
+                    <div class="skill-info">
+                        <h3>My skills</h3>
+                        <p>My skills Include.</p>
+                        <img src="css/images/html-js-css-icon-style-vector.jpg" alt="">
+                    </div>
+
+                    <div class="ability">
+                        <h2>designer</h2>
+                        <p>As a web designer and coder, I
+                             understand the importance of creating a 
+                             visually appealing and functional layout. 
+                             For this project, we wanted to highlight 
+                             the skills section in a dynamic way that 
+                             showcases both 
+                            design and coding abilities.</p>
+                        <h2><span><<code>coder</code></span>></h2>
+                        <p>Hello there! I'm thrilled to share 
+                            with you a little piece of my world where 
+                            creativity meets code. As someone who breathes 
+                            life into pixels and algorithms, I'm always 
+                            excited to showcase my skills 
+                            in both design and development.</p>
+                    </div>
+                </div>
+            
+        <div class="skills-example">
+                <img src="css/images/manoncomputer.png" alt="Project 2">
+                <div class="project">
+                    <h3>Examples of my work</h3>
+                    <p>My sites.</p>
+                    <img src="css/images/Screenshot 2024-06-24 171743.png" alt="">
+                    <img src="css/images/Screenshot 2024-06-24 172155.png" alt="cozy tea shop">
+                </div>
+            </div>
+        </section>
+
+        <section id="about"> 
+            <div class="container">
+                <h2>About me</h2>
+                <p>I'm Yassin, a dedicated front-end developer 
+                    driven by a passion for creating captivating 
+                    user experiences. With a solid foundation in HTML, 
+                    CSS, and JavaScript, I specialize in transforming ideas 
+                    into seamless, responsive web interfaces. My journey began 2 years ago, 
+                    sparked by a fascination with blending design aesthetics with functionality 
+                    to craft intuitive digital solutions.</p>
+            </div>
+        </section>
+
+        <section id="contact-me">
+            <div class="container">
+                <h2>Contact me</h2>
+                <form id="contact">
+                    <input type="text" name="your name" placeholder="Your name">
+                    <input type="text" name="your email" id="your email" placeholder="Your email">
+                    <input type="number" name="your number" placeholder="Your number">
+                    <textarea name="message" id="message">Send message</textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function hello(){
+            if(document.querySelector('h2').innerHTML === 'Hello!'){
+                document.querySelector('h2').innerHTML = 'and welcome!'
+            } else {
+                document.querySelector('h2').innerHTML = 'Hello!'
+            }
+        }
+    </script>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yassin. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
